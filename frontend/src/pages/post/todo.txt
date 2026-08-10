@@ -1,0 +1,8 @@
+-- (important) Landing pages
+-- (important) Resources page
+-- (important) Events page
+-- About page
+-- Connect page
+-- Gallery page
+-- Newsletter page
+-- News page
