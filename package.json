@@ -2,7 +2,8 @@
   "name": "sanity-template-astro-clean",
   "description": "Minimal Astro site with Sanity Studio",
   "scripts": {
-    "dev": "concurrently \"npm run dev --workspace=frontend\" \"npm run dev --workspace=studio\""
+    "dev": "concurrently \"npm run dev --workspace=frontend\" \"npm run dev --workspace=studio\"",
+    "prepare": "husky"
   },
   "keywords": [
     "Sanity",
