@@ -27,7 +27,7 @@ const dataAttr = visualEditingEnabled
 
 <div class="relative flex flex-col border-b border-gray-200 p-2 first:rounded-t last:rounded-b sm:border sm:border-b-0 sm:last:border-b md:flex-row">
   {
-    post.mainImage ? (
+    post.mainImage?.asset ? (
       <img
         class="h-57.75 w-full object-cover md:min-w-[366.5px] md:max-w-[366.5px] md:max-h-57.75"
         src={urlFor(post.mainImage).width(500).height(300).fit("crop").auto("format").quality(80).url()}

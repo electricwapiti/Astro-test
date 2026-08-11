@@ -103,7 +103,7 @@ Stega encoding handles **string fields** (e.g. `title`, `excerpt`) automatically
 import { createDataAttribute } from "@sanity/visual-editing-csm";
 
 const dataAttr = createDataAttribute({
-  projectId: "your-project-id",
+  projectId: "6qa73xvg",
   dataset: "production",
   baseUrl: "http://localhost:3333", // studio URL
   id: post._id,

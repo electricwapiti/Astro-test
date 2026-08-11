@@ -6,7 +6,7 @@ import {defineDocuments, defineLocations, presentationTool} from 'sanity/present
 import {schemaTypes} from './src/schemaTypes'
 
 // Environment variables for project configuration
-const projectId = process.env.SANITY_STUDIO_PROJECT_ID || 'your-projectID'
+const projectId = process.env.PUBLIC_SANITY_STUDIO_PROJECT_ID || '6qa73xvg'
 const dataset = process.env.SANITY_STUDIO_DATASET || 'production'
 
 // Presentation Preview URL
